@@ -23,7 +23,7 @@
 |   |    |(Edx:PH525.1x)Inference                | 지용기  |                                         |
 | 3 |7/14|(유전체)4장 유전체 염기서열 분석법 | 김무성 |        |
 |   |    |(Edx:PH525.1x)Explatory Data Analysis | 박세진 |   [발표자료](./part1/Week3_150714/bioR_park1_week03_EDA_slide_sejinpark.md)  |
-|   |    | 보강 Rmarkdown | 박세진 | [발표자료](./part1/Week3_150714/Rmarkdown_sejinpark.pdf)[RmdCheetsheet](https://www.rstudio.com/.../2015/02/rmarkdown-cheatsheet.pdf)|
+|   |    | 보강 : Rmarkdown  [참고자료 : Rmarkdown Cheatsheet](https://www.rstudio.com/.../2015/02/rmarkdown-cheatsheet.pdf)| 박세진 | [발표자료](./part1/Week3_150714/Rmarkdown_sejinpark.pdf)|
 | 4 |7/21|(유전체)5장 유전체 정보의 해석  | 최창순 |   |
 |   |    |(Edx:PH525.1x)Robust summaries | 최창순 |   |
 |   |    |(Edx:PH525.1x)dplyr |  최창순 |   |
