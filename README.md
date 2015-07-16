@@ -42,7 +42,7 @@
 | 	|   |(유전체)8장 유전변이형 발굴          	|   |       |
 | 2 |8/11|(유전체)9장 유전변이형 검사법 		|   |       |
 | 	|   |(보강1)선형대수          	|   |       |
-| 	|   |(Edx:PH525.2x) Matrix Algebra and Linear ModelsDashboard          	|   | |
+| 	|   |(Edx:PH525.2x) Matrix Algebra and Linear ModelsDashboard|   | |
 | 3 |8/18|(유전체)10장 일배체형 검사법 		|   |       |
 | 	|   |(유전체)11장 유전체 연관구조(LD)와 HapMap          	|   |       |
 | 4 |8/25|(유전체)12장 기초 통계유전학		|   |       |
