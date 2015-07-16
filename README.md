@@ -33,7 +33,7 @@
 |   |    |(Edx:PH525.4x)Bioconductor - Week1,2 |   |   |
 
 
-<b>PART I</b>
+<b>PART II</b>
 * 2015년 8월 4일~ 2015년 8월 25일  
 
 | 회차  | 일시   | 내용                                  | 발표자  |              발표자료                    |
