@@ -26,7 +26,7 @@
 |   |    |(Edx:PH525.1x)Explatory Data Analysis | 박세진 |   [발표자료](./part1/Week3_150714/bioR_park1_week03_EDA_slide_sejinpark.md)  |
 |   |    | 보강 : Rmarkdown  [참고자료 : Rmarkdown Cheatsheet](https://www.rstudio.com/.../2015/02/rmarkdown-cheatsheet.pdf)| 박세진 | [slide](./part1/Week3_150714/Rmarkdown_sejinpark.pdf)|
 | 4 |7/21|(유전체)5장 유전체 정보의 해석  | 최창순 |   |
-|   |    |(Edx:PH525.1x)Robust summaries, dplyr | 최창순 |[notebook]http://nbviewer.ipython.org/github/biospin/bioR/blob/master/part1/Week4_150721/bioR_part1_week4_Robust_dyplr_CS.ipynb   |
+|   |    |(Edx:PH525.1x)Robust summaries, dplyr | 최창순 |[Notebook] http://nbviewer.ipython.org/github/biospin/bioR/blob/master/part1/Week4_150721/bioR_part1_week4_Robust_dyplr_CS.ipynb   |
 | 5 |7/28|(유전체)6장 기능 유전체학 | 박성진  |   |
 |   |    |(Edx:PH525.3x)Week1:Inference for High Throughput Data |   |   |
 |   |    |(Edx:PH525.4x)Bioconductor - Week1,2 |   |   |
