@@ -7,37 +7,42 @@ title: 스터디 일정 & 커리큘럼 & 발표자료
 
 ## PART II
 
-* 2015년 8월 20일~ 2015년 9월 17일  
+* 2015년 8월 4일~ 2015년 8월 25일  
 
 | 회차  | 일시   | 내용                                  | 발표자  |              발표자료                    |
-| ----- |:------:| :-------------------------------------|:-------:|:----------------------------------------: |
-| 1 |8/20|pySpark 설치 및 기초                          |최창순   |[발표자료](http://nbviewer.ipython.org/github/biospin/biospark/blob/master/Part2/Week1_20150820/spark_tutorial_student.ipynb)|
-|   |    |pySpark를 이용한 간단한 실습(Word count)      |최창순   |[발표자료](http://nbviewer.ipython.org/github/biospin/biospark/blob/master/Part1/Week4/lab1_word_count_student_Answer_CS_20150730.ipynb)|
-| 2 |9/3 |Linear Regression and Distributed ML Principles |         |                                          |
-|   |    |실습 : Millionsong Regression Pipeline           |         |                                          |
-| 3 |9/10|Logistic Regression and Click-through Rate Prediction  |     |                                          |
-|   |    |실습 : Click-through Rate Prediction Pipeline          |     |                                          |
-| 4 |9/17|PCA and Neuroimaging                            |         |                                           |
-|   |    |실습 : Neuroimaging Analysis via PCA            |         |                                          | 
-| 5 |9/24|                                                |         |                                           |
-|   |    |                                                 |   |                                           |
+| ----- |:------:| :-------------------------------------|:-------:|:---------------------------------------- |
+| 1 |8/4|(유전체)7장 인간 유전체와 유전변이 		|   |       |
+| 	|   |(유전체)8장 유전변이형 발굴          	|   |       |
+| 2 |8/11|(유전체)9장 유전변이형 검사법 		|   |       |
+| 	|   |(보강1)선형대수          	|   |       |
+| 	|   |(Edx:PH525.2x) Matrix Algebra and Linear ModelsDashboard|   | |
+| 3 |8/18|(유전체)10장 일배체형 검사법 		|   |       |
+| 	|   |(유전체)11장 유전체 연관구조(LD)와 HapMap          	|   |       |
+| 4 |8/25|(유전체)12장 기초 통계유전학		|   |       |
+|   |    |(Edx:PH525.6x) Case Study: Variant Discovery and Genotyping-Week1|   |  |  
+
 
 
 ## PART I 
 
-* 2015년 7월 2일~ 2015년 7월 30일  
+* 2015년 6월 18일~ 2015년 7월 28일  
 
 | 회차  | 일시   | 내용                                  | 발표자  |              발표자료                    |
-| ----- |:------:| :-------------------------------------|:-------:|:----------------------------------------: |
-| 1 |7/2|Introduction to Big Data and Data Science|최창순|[발표자료](http://nbviewer.ipython.org/github/biospin/biospark/blob/master/Part1/Week1/20150702_BioSpark_Part1-1.ipynb) |
-|   |    |pySpark 설치 (ipython notebook)   |최창순|                |
-| 2 |7/9 |Spark Essentials                  |김학우 |[발표자료](https://docs.google.com/presentation/d/1MwPX4AgAgnyi2mDWDtZnNbBhkuI9Atgm0ys48kC_4H0/edit#slide=id.p3)|
-| 3 |7/16|Semi-Structured / Structured Data | 조혁준 |[발표자료](http://nbviewer.ipython.org/github/biospin/biospark/blob/master/Part1/Week3/biospark.ipynb)|
-| 4 |7/30|pySpark를 이용한 Word Count  | 최창순 |[발표자료](http://nbviewer.ipython.org/github/biospin/biospark/blob/master/Part1/Week4/lab1_word_count_student_Answer_CS_20150730.ipynb)|
-|   |    |정규표현식 살펴보기| 김동완 |[발표자료](https://docs.google.com/document/d/1E185qknU4exS_V8vxg6HAlEtS3Gmw3LQnv6bXM_2UOw/edit)|
-| 5 |8/6|pySpark를 이용한 Web Server Log Analysis| 최창순  |[발표자료](http://nbviewer.ipython.org/github/biospin/biospark/blob/master/Part1/Week5/lab2_apache_log_student_Answer_CS_20150806.ipynb)|
-|   |    |pySpark를 이용한 Text Analysis와 Entity Resolution(1) | 김동완 |[발표자료](http://nbviewer.ipython.org/github/biospin/biospark/blob/master/Part1/Week5/2015_08_06_lab3_text_analysis_and_entity_resolution_student.ipynb)|
-| 6 |8/13|pySpark를 이용한 Text Analysis와 Entity Resolution(2) | 김동완 |[발표자료](http://nbviewer.ipython.org/github/biospin/biospark/blob/master/Part1/Week6/2015_08_13_lab3_text_analysis_and_entity_resolution_student.ipynb) |
-|   |    |Introduction to Machine Learning with Apache Spark | 임성광| |
+| ----- |:------:| :-------------------------------------|:-------:|:---------------------------------------- |
+| 1 |6/18|(유전체)1장 DNA-RNA-Protein |김가경|[slide](https://drive.google.com/file/d/0B9e89I-4MR7jeHdhY3oxSk9uVk0)|
+|   |    |(유전체)2장 DNA 분석 기술   |박세진|[slide](https://drive.google.com/file/d/0B-Pug9yuNAygX3EyUk5Femk0OVk)|
+| 2 |7/7 |(유전체)3장 유전체 지도 작성법 |박성진 |                                          |
+|   |    |(Edx:PH525.1x)R Programming Skills | 지용기  |  [slide](https://drive.google.com/open?id=0B6bSLTlVnagfOHpYMGlzaVhnekk)                                        |
+|   |    |(Edx:PH525.1x)Probability Distributions| 지용기  |                                          |
+|   |    |(Edx:PH525.1x)Inference                | 지용기  |                                         |
+| 3 |7/14|(유전체)4장 유전체 염기서열 분석법 | 김무성 |        |
+|   |    | 보강 : Github에  홈페이지 만들기 | 김무성 |
+|   |    |(Edx:PH525.1x)Explatory Data Analysis | 박세진 |   [발표자료](./part1/Week3_150714/bioR_park1_week03_EDA_slide_sejinpark.md)  |
+|   |    | 보강 : Rmarkdown  [참고자료 : Rmarkdown Cheatsheet](https://www.rstudio.com/.../2015/02/rmarkdown-cheatsheet.pdf)| 박세진 | [slide](./part1/Week3_150714/Rmarkdown_sejinpark.pdf)|
+| 4 |7/21|(유전체)5장 유전체 정보의 해석  | 최창순 |   |
+|   |    |(Edx:PH525.1x)Robust summaries, dplyr | 최창순 |[Notebook] (http://nbviewer.ipython.org/github/biospin/bioR/blob/master/part1/Week4_150721/bioR_part1_week4_Robust_dyplr_CS.ipynb)   |
+| 5 |7/28|(유전체)6장 기능 유전체학 | 박성진  |   |
+|   |    |(Edx:PH525.3x)Week1:Inference for High Throughput Data |   |   |
+|   |    |(Edx:PH525.4x)Bioconductor - Week1,2 |   |   |
 
 
