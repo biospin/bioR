@@ -1,0 +1,69 @@
+## authorotizing shared folder in VM 
+cd /mnt/
+sudo mkdir GWAS
+sudo mount -t vboxsf unixexe -o rw,uid=1000,gid=1000,umask=0000,dmode=777 GWAS
+
+
+cp genotypes_Affymetrix.map /mnt/GWAS
+cp genotypes_OmniExpress.map /mnt/GWAS
+
+Working in R
+
+
+##making three more files bed (binary file with the genotypes), bim (binary marker file), and fam (pedigree information)
+plink --noweb --file genotypes_Affymetrix --make--bed --out genotypes_Affymetrix
+
+### quality control (exclude missing, minor allele frequece, and out of HWE)
+
+##  remove all SNPs with more than 5% missingenes
+plink --noweb --bfile genotypes_Affymetrix --geno 0.05 --make-bed --out cleaned1_Affymetrix
+
+##  remove all SNPs with less than 1% of low minor allele frequence
+plink --noweb --bfile genotypes_Affymetrix --maf 0.01 --make-bed --out cleaned2_Affymetrix
+
+
+## hardy-weinberg equilibrium test; significant hwe will be too much due to the combined ethics (EUR and AFR)
+plink --noweb --bfile cleaned2_Affymetrix --hardy --out AffyHWEall
+
+##copy to GAWS fold
+cp AffyHWEall.hwe /mnt/GWAS
+
+##EUR or AFR filtering (mfilter 6 => 6th except two id columnes) ; thus divide according to ethics
+plink --noweb --bfile cleaned2_Affymetrix --filter phenotypes_Affymetrix.txt EUR --mfilter 6 --hardy --out AffyHWEeur
+plink --noweb --bfile cleaned2_Affymetrix --filter phenotypes_Affymetrix.txt ARF --mfilter 6 --hardy --out AffyHWEafr
+
+## file move
+cp AffyHWEeur.hwe /mnt/GWAS/
+cp AffyHWEafr.hwe /mnt/GWAS/
+
+## HWE filtering 
+
+plink --noweb --bfile cleaned2_Affymetrix --filter phenotypes_Affymetrix.txt EUR --mfilter 6 --hwe 0.00001 make-bed --out cleaned3_Affymetrix_EUR
+plink --noweb --bfile cleaned2_Affymetrix --filter phenotypes_Affymetrix.txt ARF --mfilter 6 --hwe 0.00001 make-bed --out cleaned3_Affymetrix_AFR
+
+##merging two files (EUR and AFR)
+
+plink --noweb --bfile cleaned3_Affymetrix_EUR --bmerge cleaned3_Affymetrix_AFR.bed cleaned3_Affymetrix_AFR.bim cleaned3_Affymetrix_AFR.fam --make-bed --out cleaned4_Affymetrix
+
+
+## exclude subjects with greater 5% of missing rate (mind option)
+
+plink --noweb --bfile cleaned4_Affymetrix --mind 0.05 --make-bed --out cleaned5_Affymetrix
+
+## comparing minor allele frequence according to ethics (EUR and AFR)
+plink --noweb --bfile cleaned6_Affymetrix --filter phenotypes_Affymetrix.txt AFR --mfilter 6 --freq --out AffyMAFafr
+plink --noweb --bfile cleaned6_Affymetrix --filter phenotypes_Affymetrix.txt EUR --mfilter 6 --freq --out AffyMAFeur
+
+## move the files to folder and do in R
+
+## univariate (crude) association analysis 
+
+plink --noweb --bfile cleaned6_Affymetrix --pheno phenotypes_Affymetrix.txt --pheno-name Y1 --linear --ci 0.95 --out Y1_nocovar_Affymetrix
+
+## adjusted association analysis
+plink --noweb --bfile cleaned6_Affymetrix --pheno phenotypes_Affymetrix.txt --pheno-name Y1 --covar phenotypes_Affymetrix.txt --covar-name Gender PC1-PC3 --hide-covar --linear --ci 0.95 --out Y1_covar_Affymetrix
+
+
+## move the files to folder
+
+
