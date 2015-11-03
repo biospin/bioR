@@ -47,12 +47,12 @@ title: 스터디 일정 & 커리큘럼 & 발표자료
 
 | 회차  | 일시   | 내용                                  | 발표자  |              발표자료                    |
 | ----- |:------:| :-------------------------------------|:-------:|:---------------------------------------- |
-| 1 |9/1| (유전체)13장 표현형(질병)의 분류와 질병유전자 탐색 전략	| 정경주 | [slide](https://drive.google.com/drive/folders/0B9e89I-4MR7jfkstR0hlakQ3SDhRbjJGbk83NXQ3b080TklBSTBVb21KRVNZelQ3SGZ4cGc) |
-| 	|   | (보강2)딥러닝을 이용한 추천  	| 지용기 | [slide](https://drive.google.com/drive/folders/0B9e89I-4MR7jfkstR0hlakQ3SDhRbjJGbk83NXQ3b080TklBSTBVb21KRVNZelQ3SGZ4cGc) [보충자료](https://github.com/biospin/bioR/blob/master/part3/Week1_150901/Machine Learning with Spark.pdf) |
+| 1 |9/1| (유전체)13장 표현형(질병)의 분류와 질병유전자 탐색 전략	| 정경주 | [slide](https://docs.google.com/presentation/d/1p49t6Q04jN-5SSAOVYBKJ7UuF00yPyW9pgeqYtYe2Aw) |
+| 	|   | (보강2)딥러닝을 이용한 추천  	| 지용기 | [slide](https://docs.google.com/presentation/d/1I4OixjQTTzY9s-xsbP1PEYRE8URFHmT8GqAp34nGklU) [보충자료](https://github.com/biospin/bioR/blob/master/part3/Week1_150901/Machine Learning with Spark.pdf) |
 | 2 |9/8|(Edx:PH525.4x)Bioconductor - Week3,4  	| 지용기 | [Notebook] (http://nbviewer.ipython.org/github/biospin/bioR/blob/master/part3/Week2_150908/Edx-04%20Introduction%20to%20Bioconductor-12. Gene%20set%20analysis.ipynb) |
 | 3 |9/15| (유전체)14장 연관성 연구	| 김가경 | [slide](https://docs.google.com/presentation/d/1FlX34VEIOJv4RcTzNJWyS8oyRlmMBJOCOTEHHkRguyI) |
-| 	|   |(Edx:PH525.6x)Case Study: Variant Discovery and Genotyping-Week2| 최윤영 |[slide](https://drive.google.com/drive/folders/0B9J_iBgl2eH2UFZoN3NqQUs5dTA) [code](https://github.com/biospin/bioR/blob/master/part3/Week3_150915/GWAS.R)|
-| 4 |9/22|(보강3) Epigenomics/DNA methylation 이론		|  이우제 |  [slide](https://drive.google.com/drive/folders/0B9e89I-4MR7jMktUM3lMbExVdU0) |
+| 	|   |(Edx:PH525.6x)Case Study: Variant Discovery and Genotyping-Week2| 최윤영 |[slide](https://docs.google.com/presentation/d/1qub-7TCmuBBxrd3CKpykqtSxS_BCBk0xVAwF6LtAe6A) [code](https://github.com/biospin/bioR/blob/master/part3/Week3_150915/GWAS.R)|
+| 4 |9/22|(보강3) Epigenomics/DNA methylation 이론		|  이우제 |  [slide](https://docs.google.com/presentation/d/1gSh_Da0pafDUgbXgTz8-YpqkFdhVKWb6MSz8IfdHhNg) |
 |   |    |(유전체)15장 유전자-유전자 및 유전자-환경의 상호작용| 김가경 | [slide](https://docs.google.com/presentation/d/1dTVuXjYbqa40zJaUwws0MSKYzPTq7lM8pQd3TtA_lBY) |  
 |   |    |(유전체)16장 유전변이형의 기능 연구| 이찬희 |  |  
 
@@ -71,6 +71,6 @@ title: 스터디 일정 & 커리큘럼 & 발표자료
 | 3 |10/20| (유전체)18장 유전체 복제수 변이형(CNV) 분석	| 정정현 |  |
 | 	|   |(유전체)20장 암 유전체 정보 분석&부록4 차세대 게놈 해독 기술 기반의 암패널| 서미경 |[slide](https://github.com/biospin/bioR/blob/master/part4/Week3_151020/CancerGenome_20151020_mk.pdf)|
 | 	|   |(유전체)21장 비침습적 산전태아 유전검사| 서정한 | |
-| 3 |10/27| (유전체)22장 약물 반응성 유전자 발굴	| 정경주 |[slide](https://drive.google.com/drive/folders/0B9e89I-4MR7jSkNSUWxjejYyNEU)|
-| 	|   |(유전체)23장 개체식별용 유전검사법| 서동준,이찬희 |[slide](https://drive.google.com/drive/folders/0B9e89I-4MR7jSkNSUWxjejYyNEU) [slide](https://drive.google.com/drive/folders/0B9e89I-4MR7jSkNSUWxjejYyNEU)|
-| 	|   |(유전체)24장 유전체 바이오마커 발굴과 미래 맞춤의학| 최윤영 |[slide](https://drive.google.com/drive/folders/0B9e89I-4MR7jSkNSUWxjejYyNEU) |
+| 3 |10/27| (유전체)22장 약물 반응성 유전자 발굴	| 정경주 |[slide](https://docs.google.com/presentation/d/1F1J4s5eJg4dbeU1CFVZN4SpWUEajLX8fLtBC_Pq0Yh4)|
+| 	|   |(유전체)23장 개체식별용 유전검사법| 서동준,이찬희 |[slide](https://docs.google.com/presentation/d/1Nna6JIURnlpo-q2ZTXTDoG1zZJx30LVU5iR8_si0zkw) [slide](https://docs.google.com/presentation/d/1rv2imYy1I7tbOUPbvGIAhvHjAWERiaUN8Vj4jV1-osk)|
+| 	|   |(유전체)24장 유전체 바이오마커 발굴과 미래 맞춤의학| 최윤영 |[slide](https://docs.google.com/presentation/d/15R6DZajeE7LfnE477Jp6C12la1KIN0mNaiiURbDRLK4) |
